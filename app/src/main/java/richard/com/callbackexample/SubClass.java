@@ -7,6 +7,7 @@ public class SubClass {
 
     interface MyCallbackClass{
         void callbackReturn();
+        void callbackReturnAgain();
     }
 
     MyCallbackClass myCallbackClass;
@@ -20,6 +21,13 @@ public class SubClass {
 
         //call callback method
         myCallbackClass.callbackReturn();
+    }
+
+    void doSomethingElse(){
+        //do something here
+
+        //call callback method
+        myCallbackClass.callbackReturnAgain();
     }
 
 

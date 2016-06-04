@@ -39,4 +39,9 @@ public class MainActivity extends AppCompatActivity implements MyCallbackClass{
     public void callbackReturn() {
         textResult.setText("Callback function called");
     }
+
+    @Override
+    public void callbackReturnAgain() {
+        textResult.setText("Callback function called again");
+    }
 }
